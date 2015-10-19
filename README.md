@@ -1,14 +1,13 @@
-vox-diskinfo
+diskinfo
 ========
 
-Este módulo para jxcore, nodejs y derivados, está basado en https://github.com/BenoitGauthier/diskinfo 
-La característica que distingue este módulo es que tiene soporte para Android con jxcore, con el comando df.
+nodejs module to get disk information, will call system command to get drive info. 
+Parse result and load info in array.  
 
-
-Como usar
+usage
 =====
 
-    var d = require('vox-diskinfo');
+    var d = require('diskinfo');
 
     d.getDrives(function(err, aDrives) {
   

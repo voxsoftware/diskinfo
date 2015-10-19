@@ -1,19 +1,19 @@
 {
-  "author": "Vox Software",
-  "name": "vox-diskinfo",
-  "description": "Módulo JxCore, NodeJs, IO.js para obtener información de los discos en el sistema",
-  "version": "0.0.1",
-  "license": "MIT",
-  "main": "./lib/diskinfo.js",
-  "scripts": {   
+  "author": {
+    "name": "Benoit Gauthier"
   },
+  "name": "diskinfo",
+  "description": "Nodejs module to get drive information, tested on linux centos and windows vista",
+  "version": "0.0.3",
+  "license": "MIT",
+  "main": "./lib/diskinfo",
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/voxsoftware/vox-diskinfo"
+    "url": "https://github.com/BenoitGauthier/diskinfo.git"
   },
   "keywords": [
     "diskinfo",
-    "vox",
     "disk",
     "disks",
     "free space",
@@ -21,15 +21,35 @@
     "harddisk",
     "hard drive"
   ],
-
-  "main": "./lib/diskinfo",
-  "dependencies": {    
-  },
+  "dependencies": {},
   "os": [
     "linux",
-    "win32",
-    "android"
+    "win32"
   ],
-  "devDependencies": {    
-  }
+  "devDependencies": {},
+  "gitHead": "166946c7e61c96c9a04b5ed562297b70d51f95c9",
+  "bugs": {
+    "url": "https://github.com/BenoitGauthier/diskinfo/issues"
+  },
+  "homepage": "https://github.com/BenoitGauthier/diskinfo",
+  "_id": "diskinfo@0.0.3",
+  "_shasum": "0d41030f09d33b5c975910bc9ab2fd4d98f62bf0",
+  "_from": "diskinfo@*",
+  "_npmVersion": "1.4.23",
+  "_npmUser": {
+    "name": "bgauthier",
+    "email": "bgauthier075@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "bgauthier",
+      "email": "bgauthier075@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "0d41030f09d33b5c975910bc9ab2fd4d98f62bf0",
+    "tarball": "http://registry.npmjs.org/diskinfo/-/diskinfo-0.0.3.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/diskinfo/-/diskinfo-0.0.3.tgz"
 }

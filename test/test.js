@@ -11,5 +11,4 @@ d.getDrives(function(err, aDrives) {
                 console.log('mounted ' + aDrives[i].mounted);
         console.log('-----------------------------------------');
         }
-
 });
